@@ -1,0 +1,9 @@
+#Ignore IDE settings
+.settings/
+
+#Ignore files specific to our PC
+.classpath
+.project
+
+#Ignore bin file
+bin/
