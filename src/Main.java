@@ -94,7 +94,7 @@ public class Main extends GLDisplay
 			camZ += 0.1;
 		
 		//Camera rotation
-		if (window.mousePressed[MouseEvent.BUTTON2])
+		if (window.mousePressed[MouseEvent.BUTTON3] || window.mousePressed[MouseEvent.BUTTON2]) //Right-click or mmb click
 		{
 			horAngle += (double) (window.mouseX - window.prevMouseX) * SENSITIVITY / 10;
 			verAngle += (double) (window.mouseY - window.prevMouseY) * SENSITIVITY / 10;
